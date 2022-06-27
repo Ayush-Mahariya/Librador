@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Librador: Best Digital Library</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder" href="#">Librador</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-secondary mx-2" type="submit">Issue Book</button>
+                <button class="btn btn-secondary me-3" type="submit">Return Book</button>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search Book" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="container"> -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6">
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="img/coursel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/coursel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/coursel3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/coursel4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/coursel5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/coursel6.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- </div> -->
+    <div class="container my-2 row row-cols-2 row-cols-sm-3 row-cols-md-4 mx-0">
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/the troll garden.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Troll Garden</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/trollGarden.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/black riders.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The black riders and other lines</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/blackRiders.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/sence and sensibility.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Sense and Sensibility</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/senceSensibility.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/the three clerks.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Three Clerks : a novel</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/threeClerks.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/treaty of peace.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Treaty of peace with Germany</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/treatyOfPeace.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/captain.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The children of the New Forest</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/childrenOfNewForest.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/HGWells.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Invisible Man</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/invisibleMan.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center my-1">
+            <div class="card text-center" style="width: 11rem;">
+                <div style="height: 265px">
+                    <img src="img/book/island.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">The Island of Doctor Moreau</h5>
+                </div>
+                <div class="d-grid gap-2 card-footer">
+                    <a href="book/islandOfMoreau.html" class="btn btn-primary"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Read Book
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container mt-5">
+        <footer>
+            <div class="py-3 my-3">
+                <ul class="nav justify-content-center border-bottom pb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Support</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                    <li class="nav-item"><a href="/about.html" class="nav-link px-2 text-muted">About</a></li>
+                    <li class="nav-item"><a href="/contact.html" class="nav-link px-2 text-muted">Contact Us</a></li>
+                </ul>
+            </div>
+            <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </footer>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script> -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
